@@ -14,11 +14,15 @@
 **API testing:** REST / GraphQL / WebSocket · Burp Suite · Postman · Frida · Nmap · Metasploit
 **AI/LLM & MCP security:** prompt injection · jailbreak & agentic-abuse testing · garak · PyRIT · MITRE ATLAS
 
-## 📂 Featured project
+## 📂 Featured projects
 - **[prompt-injection-harness](https://github.com/singhanushaka59/prompt-injection-harness)** — a Python
   harness that runs adversarial probes (prompt injection, jailbreak, data-exfiltration, tool-abuse)
   against an LLM and emits a findings report mapped to **OWASP Top 10 for LLMs** + **MITRE ATLAS**.
   Runs fully offline with a built-in demo; includes smoke tests.
+- **[damn-vulnerable-mcp](https://github.com/singhanushaka59/damn-vulnerable-mcp)** — an educational
+  security lab of deliberately broken AI agents wired to **MCP** tool servers. Exploit each flaw to
+  capture a flag; ships with a hardened *secure* reference implementation (OAuth/JWKS, server-side
+  authorization). MIT-licensed, local-use only.
 
 ## 📝 Writing
 Security research on [Medium](https://medium.com/@nitikakumari065) — AI/LLM security & prompt injection,
